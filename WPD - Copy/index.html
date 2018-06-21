@@ -1,0 +1,202 @@
+<!--This page has the accordian  http://getbootstrap.com/javascript/#Carousel
+https://getbootstrap.com/docs/3.3/javascript/  for full instructions
+
+Content re: heart rate monitors = https://www.tomsguide.com/us/heart-rate-monitor,review-2885.html  -->
+
+<!DOCTYPE html> <!--Is a document type declaration which tells the web browser how to render the page -->
+<html lang="en"> <!--en = English language and fr = French language -->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags. The meta tag for viewport is for response layout to make sure css on mobile devices are rendered properly-->
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="icon" href="../../favicon.ico">
+
+  <!-- Bootstrap core CSS and my customised external style sheet --> 
+  <!-- "rel" = relationship, href stands for hypertext reference -->
+
+  <title>The Food Monitor</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="WPD/Style.css" rel="stylesheet">
+
+</head>
+<body>
+
+ <!--............................ Navbar ..............................-->
+ 
+ <!--container-fluid brings text to edge of page-->
+ <!--brand image=website logo-->
+ <nav class="navbar my-nav navbar-expand-lg bg-light text-dark fixed-top">
+ <div class="container-fluid"> 
+  <div class="navbar navbar-inverse">
+   <div class="collapse navbar-collapse navHeaderCollapse ">
+     <ul class="nav navbar-nav navbar-centre">
+      <a class="navbar-brand" href="index.html"> 
+       <image id="brand-image" alt="Website Logo" src="Images/logo.jpg"/>
+       </a>  
+       <li class="active">
+        <a href="index.html">Home
+       </a>
+       </li>
+       <li>
+         <a href="Diabetes.html">Diabetes
+         </a>
+         <ul>
+         </li>
+         <li>
+           <a href="Gluten_Intolerance.html">Gluten Intolerance
+           </a>
+         </li>
+       </ul>
+       <li>
+         <a href="App.html">App
+         </a>
+       </li>
+       <li>
+         <a href="HealthyEating.html">Healthy Eating
+         </a>
+         <ul>
+           <li>
+             <a href="Book.html">Book 
+             </a>
+           </li>
+         </ul>
+       </li>
+     </ul>  
+   </div>
+ </div> 
+
+ <!--................... End of Navbar ..........................................-->
+
+ 
+  <div class="jumbotron">
+    <div class="container"> 
+    <div class="heading">
+      <h1>Welcome to the Food Monitor
+      </h1>
+    </div> 
+  </div> 
+
+
+
+  <div class="accordion">
+    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+      <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="headingOne">
+          <a role="button" data-toggle="collapse" data-parent="#accordion" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+           <h2>What is the Food Monitor?
+           </h2> 
+         </a>                   
+       </div> <!-- Collapsible Group Item #1-->
+
+
+       <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+        <div class="panel-body">
+          <div id="Who is the Food Monitor For?">
+            <p> It’s a heart rate and glucose monitor that compares against the food diary and alerts the user to any suspect spikes in either. The user has an app on their smartphone in which they input their food intake into the food diary after each meal. They wear a wristband that synces with the app on their phone. That wristband takes a continuous glucose and heart rate reading and updates the app.
+            </p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="headingTwo">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            <h2>Who is the Food Monitor For?
+            </h2>
+          </a>
+        </div> <!-- Collapsible Group Item #2-->
+
+
+        <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+          <div class="panel-body">
+            <p> The food monitor is for people who wish to keep a diary of the foods that they are eating. This is for diabetics who need to track their food intake so that they can calculate how much insulin to take. For people who are trying to lose weight, gain weight or maintain their weight. For people who are trying to figure out which foods to eliminate from their diet due to food intolerances.
+            </p>
+          </div>
+        </div>
+
+
+        <div class="panel panel-default">
+          <div class="panel-heading" role="tab" id="headingThree">
+            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              <h2>How do you use the Food Monitor?
+              </h2>
+            </a>
+          </div>
+        </div><!-- Collapsible Group Item #3-->
+
+
+        <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+          <div class="panel-body">
+            <p>The user wears a wristband that is synced up with an app on their smart phone. They log in everything that they eat and drink. The app monitors both the users heart rate and glucose levels. All this information is displayed in text and graphs form. The diary and graphs can be printed out or emailed to their medical professional or fitness instructor.
+            </p>
+          </div>
+        </div>
+
+
+
+
+        <div class="row">
+          <div class="col-md-4"> <!--This changes the size of the column -->
+            <div class="content-wrap"> 
+              <h3>The Food Diary
+              </h3>
+              <p> A food diary is a record of foods that you eat on a meal-by-meal, daily, or weekly basis. You can include nutritional or other dietary information, organize and track foods by food group. This lets you monitor know what, when, and how often you eat, as well as where your nutrition needs lie.
+              </p>
+              <div class="Book-html-link">  
+                <a class="btn btn-primary" href="Book.html" role="button"> Food Diary Tips &raquo;
+                </a>
+              </div>
+            </div>
+          </div> <!--Closing div class for book html link -->
+
+
+          <div class="col-md-4"> <!--This changes the size of the column -->
+            <div class="content-wrap">
+              <h3>The heart rate monitor
+              </h3>                  
+              <p> The wristband monitors the heart rate continuously sending data to the app on your smart phone. A heart rate monitor has become a feature that separates serious fitness trackers from basic step counters. Your heart rate is a telling metric, providing insight into how hard your heart has to work both while resting and during exercise. For serious athletes and people who want to train using target heart rate zones, a heart rate monitor's accuracy makes a huge difference.
+              </p>
+              <div class="Book-html-link">  
+                <a class="btn btn-primary" href="Book.html" role="button">Tips for using the Heart Monitor &raquo;
+                </a>
+              </div>
+            </div>
+          </div><!--Closing div class for book html link -->
+
+
+          <div class="col-md-4"> <!--This changes the size of the column -->
+           <div class="content-wrap">
+            <h3> Glucose levels
+            </h3>
+            <p> Glucose is a simple sugar, an important energy source in living organisms and is a component of many carbohydrates. People with diabetes need to check their glucose levels every day to maintain good health.
+            </p>
+            <div class="Book-html-link">  
+              <a class="btn btn-primary" href="Book.html" role="button"> Target blood glucose range &raquo;
+              </a>
+            </div><!--btn-primary = blue default colour button for View Details-->
+          </div> <!--Closing div class for book html link -->
+      </div> <!-- /container -->
+</div>
+</div>
+
+      <div class="footer">
+       <footer>&copy; 2018 Company, Food Monitor. <!--"&copy;" is for @ -->
+       </footer> 
+     </div> <!-- closing div for class="footer"-->
+
+
+    <!-- Bootstrap core JavaScript
+      ================================================== -->
+      <!-- The links are placed at the end of the document so the pages load faster -->
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+      <script src="js/bootstrap.min.js"></script>
+
+      <script src="JavaScript.js"></script> <!-- My customised external js file --> 
+
+    </body>
+    </html>

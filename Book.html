@@ -1,0 +1,155 @@
+<!DOCTYPE html> <!--Is a document type declaration which tells the web browser how to render the page -->
+<html lang="en"><!--en = English language and fr = French language -->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags. The meta tag for viewport is for response layout to make sure css on mobile devices are rendered properly-->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>The Food Monitor</title>
+    <!-- Bootstrap core CSS and My customised external style sheet --> 
+    <link href="css/bootstrap.min.css" rel="stylesheet">  
+    <link href="Style.Css" rel="stylesheet">
+
+
+    
+  </head>
+  <body>
+
+ <!--............................ Navbar ..............................-->
+
+<!--container-fluid brings text to edge of page-->
+<!--brand image=website logo-->
+
+<nav class="navbar my-nav navbar-expand-lg navbar-dark fixed-top">
+ <div class="container-fluid"> 
+  <div class="navbar navbar-inverse">
+   <div class="collapse navbar-collapse navHeaderCollapse">
+     <ul class="nav navbar-nav">
+       <a class="navbar-brand" href="index.html"> 
+         <image id="brand-image" alt="Website Logo" src="Images/logo.jpg"/>
+       </a>
+       <li>
+        <a href="index.html">Home
+        </a>
+       </li>
+       <li>
+         <a href="Diabetes.html">Diabetes
+         </a>
+         <ul>
+         </li>
+         <li>
+           <a href="Gluten_Intolerance.html">Gluten Intolerance
+           </a>
+         </li>
+       </ul>
+       <li>
+         <a href="App.html">App
+         </a>
+       </li>
+       <li>
+         <a href="HealthyEating.html">Healthy Eating
+          </a>
+         <ul>
+            <li class="active">
+              <a href="Book.html">Book
+             </a>
+           </li>
+         </ul>
+       </li>
+     </ul>  
+   </div>
+ </div> 
+             < <!--............................ Navbar ..............................-->
+ 
+
+             
+              <div class="jumbotron"> 
+                <div class="container">  
+                <h1> Our Range of Books 
+                </h1>
+                  <div class="Order Your Copy">
+                  <button class="btn-warning"  onclick="click" value="Download PDF">
+                    <a href="PDFs/HealthyEating.pdf" download>Order your copy here
+                    </a>
+                  </button>
+                    <div id="downloadmessage">
+                  <h3>Thanks for!
+                  </h3>
+                </div><!-- End of container -->
+              
+
+
+      <div class="book1">
+      <img src="Images/PaleoBook.png"  alt="Paleo Book"> 
+    </div> <!-- closing div class for the Paleo book-->
+
+
+
+  <div class="book2">
+ <img src="Images/Book.Jpeg" alt="The Food Monitor Book"> 
+    </div> <!-- closing div for the food monitor class=book-->
+     
+
+    <div class="row">
+     <div class="col-md-6"> <!--This changes the size of the column -->
+      <h2 class="subheading">Your target blood glucose range
+      </h2>
+      <p> Know your target blood glucose range. Talk to your healthcare provider about your personal glucose goals for pre- and post-meal readings. To get an idea of the range for which you should aim, see below:
+
+        Time of checking                           Usual goal for Most people
+
+        Before meals                               70–130
+
+        Two hours after meals                      less than 180
+
+        Bedtime                                    90–150
+
+        A1C                                        less than 7%
+
+        *expect a 30–50 point rise from premeal glucose levels 2 hours after a meal.
+      </p>
+    </div>
+
+
+
+
+          <div class="col-md-6"> <!--This changes the size of the column -->
+            <h2 class="subheading">Food Diary Tips
+            </h2>
+            <p> 1. Keep your food diary on your night stand and get into the habit of checking every night that you have filled in your diary for the day. 2. If you are in company or out on a night out you can take a photo of your meal and fill in your diary later. 3. Use everynote on your smartphone to make to make notes for your food diary. 4. If you have had a bad day or week. Write it off and start again. 
+            </p> 
+          </div>
+        </div> 
+
+
+        <div class="footer"> 
+  <footer>&copy;2018 Company, Food Monitor. <!--"&copy;" is for @ -->
+    <div class="home">
+     <h2><a href="index.html">
+      <span class="glyphicon glyphicon-home">
+      </h2>
+    </a>
+  </span>
+</div>
+</footer>
+</div>   
+</div> <!-- closing div for class="footer"--> 
+
+   
+        
+
+    <!-- Bootstrap core JavaScript  ================================================== -->
+    <!-- Links are placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+      <script src="js/bootstrap.min.js"></script>
+
+      <script src="JavaScript.js"></script> <!-- My customised external js file --> 
+
+    </body>
+    </html>
+

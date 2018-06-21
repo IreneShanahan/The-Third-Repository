@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800|Roboto+Slab:100,300,400,700');
+
+
+	/*********************Navbar**************************/
+.navbar{
+	background-color:black;
+  	color:black;
+  	font-weight:300;
+  	font-size:25px ;
+  	text-align:center;
+  	margin-bottom:10px;
+  	padding:20px;
+} 
+
+
+ul {
+	margin:0px;
+	padding:2px;
+	list-style:none;
+}
+
+ul li {
+	float:left;
+	width:200px;
+	height:40px;
+	background-color:black;
+	line-height:40px;
+	text-align:center;
+	font-size: 20px;
+	margin-right:2px;
+	list-style:none;
+}
+
+ul li a {
+	font-color:white;
+	text-decoration:none;
+	color:white;
+	display:block;
+	justify-content:center;
+}
+
+ul li a:hover {
+background-color:green;
+}
+
+
+ul li ul li {
+display:none;
+} 
+
+ul li:hover ul li {
+display:block;
+}
+
+/*******************End of Navbar****************************/
+ 
+
+
+/* Style the buttons that are used to open/close accordion panel on home/index page*/
+
+.accordion {
+    background-color: #eee;
+    color: #444;  /* black color*/
+    cursor: pointer;
+    padding: 1px;
+    width: 100%;
+    text-align:left;
+    border: 1px;
+    outline: none;
+    transition: 0.4s;
+}
+
+
+ /* Add a background color to the button if it is clicked on 
+ (add the .active class with JS), and when you move the mouse over it (hover)*/
+
+.active, .accordion:hover {
+    background-color: #ccc;
+}
+
+
+/****************************page styling  such as fonts etc*************************/
+
+body {
+	/*padding-top:50px;*/
+	font-family:"Roboto Slab", "Open Sans", sans-serif;
+	font-weight:500;
+	font-size:3rem ; /*em is the height of the font, 1em/16px = the default browser size */
+	line-height:150%;
+	position:relative;
+	background-color:#9aacaf;
+	text-decoration-color:#000000; 
+}
+
+p {
+  font-family:"Roboto Slab", "Open Sans", sans-serif;	
+  font-size:3.5rem;
+  color:black;
+  font-weight:500;
+  text-align:left;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  /*applies to all paragraphs */
+}
+
+h1  {
+	font-size:3.6rem;
+	font-weight:400;
+ 	margin-top:  6rem;
+  	margin-bottom:3rem;
+	
+	/*text-transform:uppercase; */
+	/*applies to all h1 headings */
+}
+
+h2  {
+	margin-top:  6rem;
+    margin-bottom: 3rem;
+	font-size:3.5rem;
+	font-variant:small-caps;
+	font-weight:380;
+	text-align:left;
+/*applies to all h2 headings */
+}
+
+h3  {
+	margin-top:  6rem;
+  	margin-bottom: 3rem;
+	font-size:3.4rem;
+	font-weight:360;
+/*applies to all h2 headings */
+}
+
+
+h4 {
+	/*applies to all h1-h6 headings */
+font-family:"Roboto Slab", "Open Sans", sans-serif;	
+font-weight:340;
+font-size:2.3rem;
+margin: 0;
+}
+
+
+
+h5 {
+	/*applies to all h1-h6 headings */
+font-weight: 100;
+font-size:2.2rem;
+margin: 0;
+}
+
+h6 {
+	/*applies to all h1-h6 headings */
+font-weight: 410;
+font-size:2.1rem;
+margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+
+font-family:"Roboto Slab", "Open Sans", sans-serif;	
+}
+
+/*.......................end of page sizing such as fonts ......................*/
+
+/*for carousel on Diabetes page ................................................*/
+
+#featured { 					 
+	background-color:white;
+	padding-color:grey;
+	border-color:grey;
+}
+
+/*......................................*/
+
+
+/*..Stars/reviews/Tony Robbins quote/prototypes and download app is on App page------*/
+.stars {
+	margin:  1rem;
+	color:gold;
+	font-size:100;
+	font-weight:300;
+	text-indent:2rem;
+}
+	
+
+.reviews {
+	color:black;
+	font-weight:400;
+	text-indent:2rem;
+}
+
+
+.quote {
+	font-size:1.4rem;
+	font-weight:300;
+	font-style:italic;
+	text-indent:2.5rem;
+}
+
+.prototype {
+ 	margin-top: 5rem;
+}
+
+.DownloadTheApp {
+	margin-top:4rem;
+	float:right;
+}
+
+
+ /*Book 1 = the paleo book, Book 2 is the food monitor book on the book page */
+
+.book1 {
+
+	float:left;
+	margin-top:5rem;
+	margin-right:3rem;
+	margin-bottom:3rem;
+}
+
+
+
+.book2 {
+	float:right;
+	margin-top:5rem;
+	margin-bottom:3rem;
+}
+
+
+	/* .............end of book page.................*/
+
+
+
+.content-wrap{
+	max-width: 950px;
+	margin: 0 auto;
+	padding: 50px;
+}
+
+
+
+
+/* The paleo diet is on the healthy eating page.........*/
+/* The Paleo Guy is an image on the healthy eating page */
+/* The Paleo book link is an image on the healthy eating page which linking to the book page */
+
+.ThePaleoDiet{
+	
+}
+
+
+
+.ThePaleoGuy{
+	font-size:1.2rem;
+	margin-top:2rem;
+	margin-bottom:2rem;
+}
+
+.ThePaleoBookLink {
+	margin-top:5rem;
+	margin-bottom:3rem;
+	float:right;
+	font-size:1.8rem;
+}
+
+
+ 
+ /* ...............End of healthy eating page.....................*/
+
+/* Order your copy link is on the book page, it is the jQuery code */
+
+.OrderYourCopy {  
+	margin-top:6rem;
+	margin-bottom:6rem;
+	float:right;
+	font-size:3rem;
+}
+
+
+.Book-html-link {
+	margin-top: 2rem;
+	margin-left:0rem;
+}
+/********css styling for the download pdf button on the healthy eating page******/
+
+.download-pdf {
+	margin-top: 2rem;
+	margin-bottom: 1rem;
+	float:right;
+}
+
+
+      /* css styling for the "Order your copy here" button on "book page" */
+
+
+
+.btn-warning { 
+	margin-top: 1rem; 
+	float:center;
+	font-size:1.1rem;
+	color:black;
+	font-weight:400;
+}
+
+#downloadmessage {
+	margin-top: 1rem;
+	float:center;
+}
+
+/*................gluten intolerance cartoon image is on the gluten intolerance page..*/
+
+.gluten-image {
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+	float:right;
+}
+
+
+			/*********************Footer Section *****************/
+
+.footer {
+	margin-top: 4rem;
+	margin-left:2rem;
+	margin-bottom: 4rem;
+ 	font-weight:300;
+ 	font-size: 1rem;
+	text-align:left;
+}
+
+/* .home is the home link at end of each page */
+
+.home{
+	float:right;
+}
+
+/***************End of Footer Section *****************/

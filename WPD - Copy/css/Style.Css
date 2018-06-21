@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800|Roboto+Slab:100,300,400,700');
+
+
+
+	 /*********************Color Palette******************/
+	 	/* 		white
+	 			black
+	 			purple
+	 			#9aacaf  = grey/background color
+
+	 						*/
+
+	
+
+
+	/*********************Navbar**************************/
+.navbar{
+	background-color:black;
+  	color:white;
+  	font-weight:300;
+  	font-size:25px ;
+  	text-align:center;
+  	margin-bottom:10px;
+  	padding:20px;
+  } 
+
+
+
+ul {
+	margin:0px;
+	padding:2px;
+	list-style:none;
+}
+
+ul li {
+	float:left;
+	width:200px;
+	height:40px;
+	background-color:black;
+	line-height:40px;
+	text-align:center;
+	font-size: 20px;
+	margin-right:2px;
+	list-style:none;
+}
+
+ul li a {
+	text-decoration:none;
+	color:white;
+	display:block;
+}
+
+ul li a:hover {
+
+background-color:green;
+}
+
+
+ul li ul li {
+
+display:none;
+} 
+
+ul li:hover ul li {
+
+display:block;
+
+}
+
+
+/*******************download button*********************/
+
+/* .btn {
+		text-decoration:none;
+	background: #Ef233C     ;
+	colour: white;
+	padding: 10px;
+	display: inline-block;
+}
+
+
+/***********************************************/
+
+.container{
+	background-color:   ;
+}
+
+
+
+
+
+body {
+	/*padding-top:50px;*/
+	font-family:"Roboto Slab", "Open Sans", sans-serif;
+	font-weight:200;
+	font-size:2em ; /*em is the height of the font, 1em/16px = the default browser size */
+	line-height:150%;
+	position:relative;
+	background-color:#9aacaf;
+  } 
+
+.box{
+border:2px solid black;
+padding:18px;
+height:50px;
+overflow:auto;
+}
+
+  
+  .uppercase{
+	text-transform:uppercase;
+}
+
+
+
+.subheading{
+	font-size:1.6em;
+	font-variant:small-caps;
+		font-weight:400;
+}
+
+
+h1  {font-size:1.6em;
+	text-transform:uppercase;
+	
+/*applies to all h1 headings */
+}
+
+h2  {font-size:1.4em;
+	font-variant:small-caps;
+/*applies to all h2 headings */
+}
+
+h3  {font-size:1.2em;
+/*applies to all h2 headings */
+}
+
+h4 {
+	/*applies to all h1-h6 headings */
+font-family:"Roboto Slab", "Open Sans", sans-serif;	
+font-weight:400;
+font-size:1.1em;
+margin: 0;
+}
+
+
+
+h5 {
+	/*applies to all h1-h6 headings */
+font-family:"Roboto Slab", "Open Sans", sans-serif;	
+font-weight: 100;
+font-size:1em;
+margin: 0;
+}
+
+h6 {
+	/*applies to all h1-h6 headings */
+font-family:"Roboto Slab", "Open Sans", sans-serif;	
+font-weight: 100;
+font-size:1em;
+margin: 0;
+}
+
+h1, h2, h3, h6 
+{
+font-family:"Roboto Slab", "Open Sans", sans-serif;	
+font-weight: 100;
+margin: 0;
+}
+
+
+
+p {font-size:1em;
+/*applies to all paragraphs */
+
+}
+
+.book1 {
+
+	float:left;
+}
+
+.book2 {
+
+	float:right;
+}
+
+.page {
+
+	padding: 50px  0;
+}
+
+
+.page h2{
+	text-align:center;
+	margin-bottom: 30px;
+}
+
+.content-wrap{
+	max-width: 950px;
+	margin: 0 auto;
+	padding: 50px;
+}
+
+
+
+.paleoGuy {
+	width:20%;
+	height:100px; 
+	border-image:4em; /*em is the height of the font,1em/16px=the default browser size */
+}
+
+.home{
+	float:right;
+}
+
+.OrderYourCopy {
+	float:right;
+}
+
+
+#featured { 					 /*for carousel on Diabetes page */
+	background-color:white;
+	padding-color:grey;
+	border-color:grey;
+}
+
+			/*********************Footer Section *****************/
+
+ footer {
+	text-align:left;
+	/*background:#806c73; */
+}

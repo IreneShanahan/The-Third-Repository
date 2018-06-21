@@ -1,0 +1,156 @@
+<!--This page has the carousel        http://getbootstrap.com/javascript/#Carousel    
+
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+ Indicators-->
+
+ <!DOCTYPE html> <!--Is a document type declaration which tells the web browser how to render the page -->
+ <html lang="en"><!--en = English language and fr = French language -->
+ <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags. The meta tag for viewport is for response layout to make sure css on mobile devices are rendered properly-->
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="icon" href="../../favicon.ico">
+
+  <title>The Food Monitor</title>
+  <!-- Bootstrap core CSS and my customised external style sheet -->  
+  <link href="css/bootstrap.min.css" rel="stylesheet">  
+  <link href="Style.Css" rel="stylesheet">
+
+</head>
+<body>
+
+ <!--........................Navbar ..................................-->
+
+ <!--container-fluid brings text to edge of page-->
+ <!--brand image=website logo-->
+<nav class="navbar my-nav navbar-expand-lg navbar-dark fixed-top ">
+  <div class="container-fluid "> 
+  <div class="navbar navbar-inverse justify-content-center">
+   <div class="collapse navbar-collapse navHeaderCollapse ">
+     <ul class="nav navbar-nav">
+      <a class="navbar-brand" href="index.html"><image id="brand-image" alt="Website Logo" src="Images/logo.jpg"/>
+      </a>
+      <li>
+        <a href="index.html">Home</a>
+      </li>   
+      <li class="active"><a href="Diabetes.html">Diabetes</a>
+        <ul></li>
+          <li>
+            <a href="Gluten_Intolerance.html">Gluten Intolerance</a>
+          </li>
+        </ul>
+        <li>
+          <a href="App.html">App</a>
+        </li>
+        <li>
+          <a href="HealthyEating.html">Healthy Eating</a>
+          <ul>
+            <li>
+              <a href="Book.html">Book</a>
+            </li>
+          </ul>
+        </li>
+      </ul> 
+    </div>
+  </div> 
+
+  <!-- Navbar ........................................................-->
+
+  <!--<div class="carousel-item"> --> <!--alt = discription-->
+    
+    
+      <div class="jumbotron">
+        <div class="container">
+        <h1 class="heading"> Managing Diabetes 
+        </h1>
+        <div class="carousel slide" data-ride="carousel" id="featured">
+          <div class="carousel-inner">
+            <div class="item active"> <img class="img-responsive" src="Images/Im.jpeg" alt="Healthy Eating"></div>
+            <div class="item"><img class="img-responsive" src="Images/Im2.jpeg"  alt="Managing your Diabetes"></div>
+            <div class="item"><img class="img-responsive" src="Images/Im3.jpeg"   alt="Tracking your heart rate"></div>
+            <div class="item"><img class="img-responsive" src="Images/Im4.jpeg"  alt="Keeping a food diary"></div>
+            <div class="item"> <img class="img-responsive" src="Images/Im5.Jpeg"  alt="Food intolerances"></div>
+          </div> <!--carousel inner -->
+        </div> <!--featured carousel-->
+      </header>
+<!--  Next and Previous controls below
+  href values must reference the id for this carousel -->
+
+
+
+<a class="carousel-control left" href="#featured" data-slide="prev">
+  <span class="glyphicon glyphicon-chevron-left">
+  </span>
+</a>
+<a class="carousel-control right" href="#featured" data-slide="next">
+  <span class="glyphicon glyphicon-chevron-right">
+  </span>
+</a>
+</div>
+
+
+
+<div class="row">
+  <div class="col-md-3"> <!--This changes the size of the column -->
+    <h2>Diabetes
+    </h2>
+      <p>There are different types of diabetes ranging in severity from prediabetic to Type 1 insulin dependent diabetes. 
+      </p>
+  </div>
+
+
+  <div class="col-md-3">  <!--This changes the size of the column -->
+      <h2>Type 1 Diabetes
+      </h2>
+        <p> is an autoimmune condition affecting 1 in 500 children with onset over days or weeks. The condition tends to occur in childhood or early adult life and will require daily insulin therapy. It is caused by the body’s own immune system   destroying the insulin-making cells (beta-cells) of the pancreas.
+        </p>
+  </div>
+
+
+  <div class="col-md-3"> <!--This changes the size of the column -->
+    <h2>Type 2 Diabetes
+    </h2>
+      <p> is a life-long disease that affects the way your body handles glucose, a kind of sugar, in your blood.Most people with the condition have type 2. There are about 27 million people in the U.S. with it. Another 86 million have prediabetes: Their blood glucose is not normal, but not high enough to be diabetes yet.
+      </p>
+  </div>
+
+
+  <div class="col-md-3"> <!--This changes the size of the column -->
+    <h2>Gestational Diabetes
+    </h2>
+      <p> develops in women during pregnancy because the mother’s body is not able to produce enough insulin. Insulin is a hormone that enables the body to break down sugar (glucose) to be used as energy. Without sufficient insulin the amount of sugar in the blood rises. High blood sugar levels in the mother’s body are passed through the placenta to the developing baby. This can cause health problems.
+      </p>
+  </div>
+
+
+
+
+<div class="footer"> 
+  <footer>&copy;2018 Company, Food Monitor. <!--"&copy;" is for @ -->
+    <div class="home">
+      <h2>
+        <a href="index.html">
+          <span class="glyphicon glyphicon-home">
+          </a>
+        </h2>
+      </span>
+    </div>
+  </footer>
+</div> <!-- closing div for class="footer"-->
+
+
+    <!-- Bootstrap core JavaScript
+      ================================================== -->
+      <!-- The links are placed at the end of the document so the pages load faster -->
+
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+      <script src="js/bootstrap.min.js"></script>
+
+      <script src="JavaScript.js"></script> <!-- My customised external js file --> 
+
+    </body>
+    </html>
